@@ -909,5 +909,42 @@ header .navbar {
   color: var(--medium-gray-color);
 }
 
+/* Tenders Section */
+.tenders-section {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+}
 
+.tenders-content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.tender-card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.tender-title {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+  color: #002f6c;
+}
+
+.tender-actions {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.tender-pdf {
+  width: 100%;
+  height: 500px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
 
